@@ -89,7 +89,7 @@ const handleClick = () => {
             className='w-6 ml-3'><LinkedInIcon/></motion.a>
 
             <button 
-              onClick={()=> setMode(mode === "light" ? "dark" : "light")} className={`ml-4 lg:hidden flex-col items-center justify-center rounded-full p-1
+              onClick={()=> setMode(mode === "light" ? "dark" : "light")} className={`ml-3 w-6 lg:hidden flex-col items-center justify-center rounded-full p-1
                ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"} `}>
                   
                   
@@ -143,7 +143,7 @@ const handleClick = () => {
   
               
               <button 
-              onClick={()=> setMode(mode === "light" ? "dark" : "light")} className={`ml-3 sm:mx-1  w-6 flex flex-wrap items-center justify-center rounded-full p-1
+              onClick={()=> setMode(mode === "light" ? "dark" : "light")} className={`ml-3 sm:ml-1  w-6 flex flex-wrap items-center justify-center rounded-full p-1
                ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"} `}>
                   
                   
