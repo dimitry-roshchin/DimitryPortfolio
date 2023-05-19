@@ -49,21 +49,18 @@ const Experience = () => {
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                <Details position="Web Developer" company="Volk Digital" companyLink="https://www.volkwebdev.com/"
                time="2018-Present" address="Pensacola , FL"
-               work="Worked on a team responsible for developing new features for Google's 
-               search engine, including improving the accuracy and relevance of search results and 
-               developing new tools for data analysis and visualization."/>
+               work="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+               labore et dolore magna aliqua. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Orci eu lobortis elementum nibh."/>
 
                 <Details position="Web Developer" company="Barnes & Co." companyLink=""
                time="2018" address="Pensacola , FL"
-               work="Worked on a team responsible for developing new features for Google's 
-               search engine, including improving the accuracy and relevance of search results and 
-               developing new tools for data analysis and visualization."/>
+               work="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+               labore et dolore magna aliqua. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Orci eu lobortis elementum nibh."/>
 
                 <Details position="Solutions Consultant" company="Verizon" companyLink="https://www.verizon.com"
                time="2014-2018" address="Pensacola , FL"
-               work="Worked on a team responsible for developing new features for Google's 
-               search engine, including improving the accuracy and relevance of search results and 
-               developing new tools for data analysis and visualization."/>     
+               work="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+               labore et dolore magna aliqua. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Orci eu lobortis elementum nibh."/>     
             </ul>
         </div>
     </div>

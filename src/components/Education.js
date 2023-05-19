@@ -50,7 +50,7 @@ const Education = () => {
 
              <Details
              type="B.Sc in Computer Science"
-             time="2020-2024"
+             time="Ongoing"
              place="Pensacola Christian College"
              info="Relevant coursework included Data Structures and Algorithms, Computer Systems Engineering, Networking and
              Computer Architecture"
@@ -60,8 +60,8 @@ const Education = () => {
              type="Online Coursework"
              time="Ongoing"
              place="Certifications & Online Courses"
-             info="Relevant coursework included Data Structures and Algorithms, Computer Systems Engineering, Networking and
-             Computer Architecture"
+             info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+             labore et dolore magna aliqua. "
              /> 
 
 

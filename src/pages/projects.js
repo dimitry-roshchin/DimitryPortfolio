@@ -124,7 +124,7 @@ const projects = () => {
 
       <FeaturedProject 
       title="Crypto Screener Application"
-      img={project1}
+      img={project4}
       summary="a feature rich crypto screener app using react talilwind cs context api react router it shows details regarding almost all crypto you can 
       easily convert the price ni your local currency"
       link="/"
@@ -138,7 +138,7 @@ const projects = () => {
     <div className='col-span-6 sm:col-span-12 md:col-span-12'>
       <Project 
       title="Agency Template"
-      img={project2}
+      img={project4}
       link="/"
       github="/"
       type="Website Template"      
@@ -147,7 +147,7 @@ const projects = () => {
     <div className='col-span-6 sm:col-span-12 md:col-span-12'>
     <Project 
       title=" Next.Js Portfolio"
-      img={project3}
+      img={project4}
       link="/"
       github="https://github.com/dimitry-roshchin/DimitryPortfolio"
       type="Portfolio Site"      
@@ -159,8 +159,8 @@ const projects = () => {
     <FeaturedProject 
       title="NFT Collection Website"
       img={project4}
-      summary="a feature rich crypto screener app using react talilwind cs context api react router it shows details regarding almost all crypto you can 
-      easily convert the price into your local currency"
+      summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+      labore et dolore magna aliqua. "
       link="/"
       github=""
       type="Under Construction"      
