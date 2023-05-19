@@ -41,13 +41,13 @@ export default function Home() {
                     Explore my latest projects and articles, showcasing my expertise in React.js and web development.
                 </p>
                 <div className='flex items-center self-start mt-2 lg:self-center'>
-                  <Link href="https://dimitry-portfolio.vercel.app/about" target={"_blank"}
+                  <Link href="https://dimitry-portfolio.vercel.app/about" 
                   className='flex items-center bg-light text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-[#ff4d70] hover:text-dark
                   border-2 border-solid border-[#ff4d70]  dark:text-light dark:bg-dark dark:hover:bg-[#ff4d70] dark:hover:text-dark md:bg-[#ff4d70]
                   md:p-2 md:px-4 md:text-base sm:bg-[#ff4d70] '
                   
                   >About Dimitry </Link>
-                  <Link href="https://dimitry-portfolio.vercel.app/projects" target={"_blank"}
+                  <Link href="https://dimitry-portfolio.vercel.app/projects" 
                   className='ml-6 text-lg font-medium capitalize text-dark underline underline-offset-2 dark:text-light md:text-base '
                   >Projects</Link>
                 </div>
