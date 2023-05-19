@@ -143,7 +143,7 @@ const handleClick = () => {
   
               
               <button 
-              onClick={()=> setMode(mode === "light" ? "dark" : "light")} className={`ml-2 mt-2 w-6 flex flex-wrap items-center justify-center rounded-full p-1
+              onClick={()=> setMode(mode === "light" ? "dark" : "light")} className={`ml-2  w-7 flex flex-wrap items-center justify-center rounded-full p-1
                ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"} `}>
                   
                   
