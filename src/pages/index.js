@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import Layout from '@/components/Layout'
 import Image from 'next/image'
-import profilePic from "../../public/images/profile/hands.png";
+import profilePic from "../../public/images/profile/avatar.png";
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import TransitionEffect from '@/components/TransitionEffect';
