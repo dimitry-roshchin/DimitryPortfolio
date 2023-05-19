@@ -86,7 +86,7 @@ const handleClick = () => {
             <motion.a href="/" target={"_blank"}
             whileHover={{y: -2}}
             whileTap={{scale:0.9}}
-            className='w-6 ml-3'><LinkedInIcon/></motion.a>
+            className='w-6 mx-3'><LinkedInIcon/></motion.a>
 
             <button 
               onClick={()=> setMode(mode === "light" ? "dark" : "light")} className={`ml-3 w-6 lg:hidden flex-col items-center justify-center rounded-full p-1
@@ -139,7 +139,7 @@ const handleClick = () => {
               <motion.a href="/" target={"_blank"}
               whileHover={{y: -2}}
               whileTap={{scale:0.9}}
-              className='w-6 ml-3 sm:mx-1'><LinkedInIcon/></motion.a>
+              className='w-6 mx-3 sm:mx-1'><LinkedInIcon/></motion.a>
   
               
               <button 
