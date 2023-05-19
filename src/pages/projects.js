@@ -146,10 +146,10 @@ const projects = () => {
       /></div>
     <div className='col-span-6 sm:col-span-12 md:col-span-12'>
     <Project 
-      title="DimDevelops"
+      title=" Next.Js Portfolio"
       img={project3}
       link="/"
-      github="/"
+      github="https://github.com/dimitry-roshchin/DimitryPortfolio"
       type="Blog Website"      
       
       />
@@ -162,7 +162,7 @@ const projects = () => {
       summary="a feature rich crypto screener app using react talilwind cs context api react router it shows details regarding almost all crypto you can 
       easily convert the price into your local currency"
       link="/"
-      github="/"
+      github=""
       type="Under Construction"      
       
       />
