@@ -150,7 +150,7 @@ const projects = () => {
       img={project3}
       link="/"
       github="https://github.com/dimitry-roshchin/DimitryPortfolio"
-      type="Blog Website"      
+      type="Portfolio Site"      
       
       />
     </div>
