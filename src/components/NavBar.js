@@ -96,7 +96,7 @@ const handleClick = () => {
         
         </div>
         <button 
-              onClick={()=> setMode(mode === "light" ? "dark" : "light")} className={`ml-4 flex items-center self-auto justify-center rounded-full p-1
+              onClick={()=> setMode(mode === "light" ? "dark" : "light")} className={`ml-4 flex-col items-center justify-center rounded-full p-1
                ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"} `}>
                   
                   
