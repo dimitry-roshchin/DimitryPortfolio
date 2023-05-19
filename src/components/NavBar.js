@@ -88,15 +88,8 @@ const handleClick = () => {
             whileTap={{scale:0.9}}
             className='w-6 ml-3'><LinkedInIcon/></motion.a>
 
-           
-
-            
-
-        </nav>
-        
-        </div>
-        <button 
-              onClick={()=> setMode(mode === "light" ? "dark" : "light")} className={`ml-4 flex-col items-center justify-center rounded-full p-1
+            <button 
+              onClick={()=> setMode(mode === "light" ? "dark" : "light")} className={`ml-4 lg:hidden flex-col items-center justify-center rounded-full p-1
                ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"} `}>
                   
                   
@@ -107,6 +100,13 @@ const handleClick = () => {
                     : <MoonIcon className={"fill-dark"}/>
                   }
               </button>
+
+            
+
+        </nav>
+        
+        </div>
+      
 
         {
           isOpen ?
@@ -141,8 +141,9 @@ const handleClick = () => {
               whileTap={{scale:0.9}}
               className='w-6 ml-3 sm:mx-1'><LinkedInIcon/></motion.a>
   
+              
               <button 
-              onClick={()=> setMode(mode === "light" ? "dark" : "light")} className={`ml-4 flex lg:hidden items-center justify-center rounded-full p-1
+              onClick={()=> setMode(mode === "light" ? "dark" : "light")} className={`ml-2 flex items-center justify-center rounded-full p-1
                ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"} `}>
                   
                   
@@ -152,7 +153,8 @@ const handleClick = () => {
                     <SunIcon className={"fill-dark"}/>
                     : <MoonIcon className={"fill-dark"}/>
                   }
-              </button>
+              </button> 
+              
   
           </nav>
           </motion.div>
