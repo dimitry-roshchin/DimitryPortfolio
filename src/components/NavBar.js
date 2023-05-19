@@ -145,18 +145,7 @@ const handleClick = () => {
               className='w-6 mx-3 sm:mx-1'><LinkedInIcon/></motion.a>
   
               
-              <button 
-              onClick={()=> setMode(mode === "light" ? "dark" : "light")} className={`ml-3 sm:ml-1  w-6 flex flex-wrap items-center justify-center rounded-full p-1
-               ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"} `}>
-                  
-                  
-                  
-                  {
-                    mode === "dark" ?
-                    <SunIcon className={"fill-dark"}/>
-                    : <MoonIcon className={"fill-dark"}/>
-                  }
-              </button> 
+              
               
   
           </nav>
