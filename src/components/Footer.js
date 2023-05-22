@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='flex items-center lg:py-2'>
                 Built with <span className='text-[#ff4d70] text-2xl px-1'>    &hearts; </span><Link href="/"></Link>
             </div>
-            <Link href="/"  className='underline underline-offset-2 self'>Contact</Link>
+            <Link href="mailto:dimi.roshchin@gmail.com?subject=Let's Chat!" target='_blank' className='underline underline-offset-2 self'>Contact</Link>
 
         </Layout>
     </footer>
