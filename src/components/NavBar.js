@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import Logo from './Logo'
 import { useRouter } from 'next/router'
-import {TwitterIcon, GithubIcon, LinkedInIcon, SunIcon, MoonIcon} from './icons';
+import {TwitterIcon, GithubIcon, LinkedInIcon, SunIcon, MoonIcon, GmailIcon} from './icons';
 import {motion} from "framer-motion";
 import useThemeSwitcher from './hooks/useThemeSwitcher';
 
@@ -83,10 +83,10 @@ const handleClick = () => {
             whileTap={{scale:0.9}}
             className='w-6 mx-3'><GithubIcon/></motion.a>
 
-            <motion.a href="/" target={"_blank"}
+            <motion.a target={"_blank"} href="mailto:dimi.roshchin@gmail.com?subject=Let's Chat!"
             whileHover={{y: -2}}
             whileTap={{scale:0.9}}
-            className='w-6 mx-3'><LinkedInIcon/></motion.a>
+            className='w-6 mx-3'><GmailIcon/></motion.a>
 
            
 
@@ -139,10 +139,10 @@ const handleClick = () => {
               whileTap={{scale:0.9}}
               className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'><GithubIcon/></motion.a>
   
-              <motion.a href="/" target={"_blank"}
+              <motion.a href="mailto:dimi.roshchin@gmail.com?subject=Let's Chat!" target={"_blank"}
               whileHover={{y: -2}}
               whileTap={{scale:0.9}}
-              className='w-6 mx-3 sm:mx-1'><LinkedInIcon/></motion.a>
+              className='w-6 mx-3 sm:mx-1'><GmailIcon/></motion.a>
   
               
               
