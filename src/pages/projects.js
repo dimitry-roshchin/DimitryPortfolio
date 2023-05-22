@@ -4,9 +4,7 @@ import Layout from '@/components/Layout'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { GithubIcon } from '@/components/icons'
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
-import project2 from "../../public/images/projects/agency.jpg"
-import project3 from "../../public/images/projects/devdreaming.jpg"
+import project3 from "../../public/images/projects/portfolio.png"
 import project4 from "../../public/images/projects/construct4.png"
 import Image from 'next/image'
 import {motion} from 'framer-motion'
@@ -157,10 +155,10 @@ const projects = () => {
 
     <div className='col-span-12'>
     <FeaturedProject 
-      title="NFT Collection Website"
+      title="MyLibrary"
       img={project4}
-      summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-      labore et dolore magna aliqua. "
+      summary="Library web app that allows users to display physical and digital libraries.
+       Technologies being used are Next.js, Tailwind-CSS, SQL, Firebase."
       link="/"
       github=""
       type="Under Construction"      
