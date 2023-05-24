@@ -36,7 +36,7 @@ const Skills = () => {
 
       </motion.div>
 
-      <Skill name="Python" x="-25vw" y="2vw"/>
+      <Skill name="Three.js" x="-25vw" y="2vw"/>
       <Skill name="CSS" x="-5vw" y="-11vw "/>
       <Skill name="Framer" x="23vw" y="6vw"/>
       <Skill name="RESTful-APIs" x="0vw" y="15vw"/>
@@ -46,7 +46,7 @@ const Skills = () => {
       <Skill name="GIT" x="0vw" y="-21vw"/>
       <Skill name="React" x="-25vw" y="20vw"/>
       <Skill name="SQL" x="19vw" y="19vw"/>
-      <Skill name="AWS" x="-37vw" y="-4vw"/>
+      <Skill name="GSAP" x="-37vw" y="-4vw"/>
 
 
     </div>
