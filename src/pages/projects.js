@@ -135,11 +135,11 @@ const projects = () => {
 
     <div className='col-span-6 sm:col-span-12 md:col-span-12'>
       <Project 
-      title="Agency Template"
+      title="Product Landing Page"
       img={project4}
-      link="/"
-      github="/"
-      type="Website Template"      
+      link="https://iphonelandingpage.netlify.app/"
+      github="https://github.com/dimitry-roshchin/landing-iphone"
+      type="Netlify Hosting"      
       
       /></div>
     <div className='col-span-6 sm:col-span-12 md:col-span-12'>
@@ -148,7 +148,7 @@ const projects = () => {
       img={project4}
       link="/"
       github="https://github.com/dimitry-roshchin/DimitryPortfolio"
-      type="Portfolio Site"      
+      type="Vercel Hosting"      
       
       />
     </div>
