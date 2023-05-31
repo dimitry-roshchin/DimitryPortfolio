@@ -4,8 +4,9 @@ import Layout from '@/components/Layout'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { GithubIcon } from '@/components/icons'
-import project3 from "../../public/images/projects/portfolio.png"
 import project4 from "../../public/images/projects/construct4.png"
+import project5 from "../../public/images/projects/landingpage.png"
+import project6 from "../../public/images/projects/portfolio1.png"
 import Image from 'next/image'
 import {motion} from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -135,8 +136,8 @@ const projects = () => {
 
     <div className='col-span-6 sm:col-span-12 md:col-span-12'>
       <Project 
-      title="Product Landing Page"
-      img={project4}
+      title="Landing Page"
+      img={project5}
       link="https://iphonelandingpage.netlify.app/"
       github="https://github.com/dimitry-roshchin/landing-iphone"
       type="Netlify Hosting"      
@@ -145,7 +146,7 @@ const projects = () => {
     <div className='col-span-6 sm:col-span-12 md:col-span-12'>
     <Project 
       title=" Next.Js Portfolio"
-      img={project4}
+      img={project6}
       link="/"
       github="https://github.com/dimitry-roshchin/DimitryPortfolio"
       type="Vercel Hosting"      
