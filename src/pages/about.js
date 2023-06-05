@@ -54,19 +54,18 @@ const about = () => {
                 <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 md:mb-12 '>
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                     
-                        <p className='font-medium '>Hi, I'm Dimitry, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-and user-centered digital experiences. With 5 years of experience in the field. I am always looking for 
-new and innovative ways to bring my clients' visions to life.</p>
+                        <p className='font-medium '>Hello, my name is Dimitry and I am a web developer. I am passionate about creating beautiful, intuitive, 
+                        and functional websites that provide a seamless user experience.</p>
 
                         <p className='my-4 font-medium'>
-                        I believe that design is about more than just making things look pretty, it's about solving problems and 
-creating intuitive, enjoyable experiences for users. 
+                        I am a team player who enjoys collaborating with others to achieve common goals. I am also a problem solver who 
+                        is not afraid to tackle complex challenges and find creative solutions to overcome them. 
                         </p>
 
                         <p className='font-medium'>
-                        Whether I'm working on a website, mobile app, or 
-other digital product, I bring my commitment to design excellence and user-centered thinking to 
-every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                        I have a solid foundation in HTML, CSS, and JavaScript, as well as experience 
+                        with various web development frameworks such as React and Next. I am constantly learning 
+                        and staying up-to-date with the latest web development trends and technologies
                         </p>
                 </div>
 

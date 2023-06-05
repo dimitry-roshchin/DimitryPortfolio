@@ -49,18 +49,24 @@ const Experience = () => {
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                <Details position="Web Developer" company="Volk Digital" companyLink="https://www.volkwebdev.com/"
                time="2018-Present" address="Pensacola , FL"
-               work="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-               labore et dolore magna aliqua. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Orci eu lobortis elementum nibh."/>
+               work="Write clean, organized, and maintainable code using modern front-end frameworks such as React and Next,
+               Develop and maintain website architecture, ensuring scalability and efficiency, while adhering to best practices and standards,
+               Ensure cross-browser compatibility and optimize website performance using techniques such as code splitting, tree shaking, and lazy loading
+Troubleshoot and debug issues utilizing debugging tools such as Chrome DevTools and React Developer Tools"/>
 
-                <Details position="Web Developer" company="Barnes & Co." companyLink=""
+                <Details position=" Jr. Developer" company="Barnes & Co." companyLink=""
                time="2018" address="Pensacola , FL"
-               work="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-               labore et dolore magna aliqua. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Orci eu lobortis elementum nibh."/>
+               work="Collaborated with senior developers to develop and maintain company websites,
+               Assisted with troubleshooting and debugging issues as they arose,
+               Worked on various projects using React and Angular frameworks,
+               Participated in code reviews and contributed to the development of coding standards."/>
 
                 <Details position="Solutions Consultant" company="Verizon" companyLink="https://www.verizon.com"
                time="2014-2018" address="Pensacola , FL"
-               work="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-               labore et dolore magna aliqua. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Orci eu lobortis elementum nibh."/>     
+               work="Build and maintain strong relationships with customers, earning their trust and loyalty
+               Meet and exceed sales targets and performance metrics
+               Continuously develop and enhance technical and sales skills through training and self-study
+               Contribute to the development of sales strategies and tactics that drive revenue growth and customer satisfaction"/>     
             </ul>
         </div>
     </div>

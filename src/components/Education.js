@@ -57,11 +57,11 @@ const Education = () => {
              /> 
 
             <Details
-             type="Online Coursework"
+             type="Continued Learning"
              time="Ongoing"
-             place="Certifications & Online Courses"
-             info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-             labore et dolore magna aliqua. "
+             place="Certifications"
+             info="Boomi Professional Developer Certification, Salesforce Administrator Certification.
+             Ongoing: AWS Cloud Practitioner Certification , Azure Developer Certification. "
              /> 
 
 

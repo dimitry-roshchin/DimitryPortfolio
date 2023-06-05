@@ -5,7 +5,7 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { GithubIcon } from '@/components/icons'
 import weather12 from "../../public/images/projects/weather12.png"
-import iphone from "../../public/images/projects/iphone.png"
+import iphone from "../../public/images/projects/pricing.png"
 import project4 from "../../public/images/projects/construct4.png"
 import project6 from "../../public/images/projects/portfolio1.png"
 import Image from 'next/image'
@@ -116,7 +116,7 @@ const projects = () => {
 
     <main className='w-full mb-16 flex flex-col items-center justify-center'>
 <Layout className='pt-16 '>
-  <AnimatedText text="featured projects" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
+  <AnimatedText text="Projects" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
 
   <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
 
