@@ -4,8 +4,9 @@ import Layout from '@/components/Layout'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { GithubIcon } from '@/components/icons'
+import weather12 from "../../public/images/projects/weather12.png"
+import iphone from "../../public/images/projects/iphone.png"
 import project4 from "../../public/images/projects/construct4.png"
-import project5 from "../../public/images/projects/landingpage.png"
 import project6 from "../../public/images/projects/portfolio1.png"
 import Image from 'next/image'
 import {motion} from 'framer-motion'
@@ -122,13 +123,13 @@ const projects = () => {
     <div className='col-span-12'>
 
       <FeaturedProject 
-      title="Crypto Screener Application"
-      img={project4}
-      summary="a feature rich crypto screener app using react talilwind cs context api react router it shows details regarding almost all crypto you can 
-      easily convert the price ni your local currency"
-      link="/"
-      github="/"
-      type="Featured Project"      
+      title="Product Landing Page"
+      img={iphone}
+      summary="Landing page using React JS (CRA), GSAP for scolling animations, styled-components for styling and Three.JS for 
+      rendering the 3D model."
+      link="https://iphonelandingpage.netlify.app/"
+      github="https://github.com/dimitry-roshchin/landing-iphone"
+      type="Netlify Hosting"      
       
       />
       
@@ -136,11 +137,11 @@ const projects = () => {
 
     <div className='col-span-6 sm:col-span-12 md:col-span-12'>
       <Project 
-      title="Landing Page"
-      img={project5}
-      link="https://iphonelandingpage.netlify.app/"
-      github="https://github.com/dimitry-roshchin/landing-iphone"
-      type="Netlify Hosting"      
+      title="Weather App"
+      img={weather12}
+      link="https://dimweather.netlify.app/"
+      github="https://github.com/dimitry-roshchin/weather"
+      type="Vanilla JS API Example"      
       
       /></div>
     <div className='col-span-6 sm:col-span-12 md:col-span-12'>
