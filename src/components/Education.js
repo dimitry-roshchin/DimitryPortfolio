@@ -61,7 +61,7 @@ const Education = () => {
              time="Ongoing"
              place="Certifications"
              info="Boomi Professional Developer Certification, Salesforce Administrator Certification.
-             Ongoing: AWS Cloud Practitioner Certification , Azure Developer Certification. "
+             Ongoing: AWS Cloud Practitioner Certification, Azure Developer Certification. "
              /> 
 
 
