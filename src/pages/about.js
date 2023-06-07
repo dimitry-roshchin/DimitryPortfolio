@@ -54,8 +54,8 @@ const about = () => {
                 <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 md:mb-12 '>
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                     
-                        <p className='font-medium '>Hello, my name is Dimitry and I am a web developer. I am passionate about creating beautiful, intuitive, 
-                        and functional websites that provide a seamless user experience.</p>
+                        <p className='font-medium '>Hello, my name is Dimitry and I am a software developer. I am passionate about creating beautiful, intuitive, 
+                        and functional applications that provide a seamless user experience.</p>
 
                         <p className='my-4 font-medium'>
                         I am a team player who enjoys collaborating with others to achieve common goals. I am also a problem solver who 
@@ -63,7 +63,7 @@ const about = () => {
                         </p>
 
                         <p className='font-medium'>
-                        I have a solid foundation in HTML, CSS, and JavaScript, as well as experience 
+                        I have a solid foundation in JavaScript & Java, as well as experience 
                         with various web development frameworks such as React and Next. I am constantly learning 
                         and staying up-to-date with the latest web development trends and technologies
                         </p>
