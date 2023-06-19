@@ -63,7 +63,7 @@ const about = () => {
                         </p>
 
                         <p className='font-medium'>
-                        I have a solid foundation in JavaScript & Java, as well as experience 
+                        I have a solid foundation in JavaScript, as well as experience 
                         with various web development frameworks such as React and Next. I am constantly learning 
                         and staying up-to-date with the latest web development trends and technologies
                         </p>

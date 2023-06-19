@@ -37,8 +37,8 @@ export default function Home() {
                 <AnimatedText text="Bringing Digital Ideas to Life with Passion and Skill." className='!text-6xl !text-left xl:!text-5xl lg:!text-center
                 lg:!text-6xl md:!text-5xl sm:!text-3xl'/>
                 <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                Hello, I'm Dimitry, a skilled full-stack developer, my primary goal is to transform ideas into innovative 
-                web applications. You can explore a collection of my recent projects, highlighting my proficiency in React.js and web development.
+                Hello, I'm Dimitry, a skilled software developer, my primary goal is to transform ideas into innovative 
+                web applications. You can explore a collection of my recent projects, highlighting my proficiency in React.js and software development.
                 </p>
                 <div className='flex items-center self-start mt-2 lg:self-center'>
                   <Link href="/about" 

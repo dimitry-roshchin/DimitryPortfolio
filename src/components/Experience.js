@@ -47,26 +47,22 @@ const Experience = () => {
             style={{scaleY: scrollYProgress}}
             className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-[#b7b7b7] md:w-[2px] md:left-[30px] xs:left-[20px]'/>
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
-               <Details position="Web Developer" company="Volk Digital" companyLink="https://www.volkwebdev.com/"
+               <Details position="Software Developer" company="Volk Digital" companyLink="https://www.volkwebdev.com/"
                time="2018-Present" address="Pensacola , FL"
-               work="Write clean, organized, and maintainable code using modern front-end frameworks such as React and Next,
-               Develop and maintain website architecture, ensuring scalability and efficiency, while adhering to best practices and standards,
-               Ensure cross-browser compatibility and optimize website performance using techniques such as code splitting, tree shaking, and lazy loading
-Troubleshoot and debug issues utilizing debugging tools such as Chrome DevTools and React Developer Tools"/>
+               work="Develop and maintain multiple web applications using React, Next.js, and Tailwind CSS, resulting in improved user experience and increased customer satisfaction.
+               Design and implement RESTful APIs, enabling seamless integration between the front-end and back-end systems.
+               Utilize SQL databases to manage and store application data, ensuring data integrity and efficient retrieval.
+               Collaborate with cross-functional teams, including designers and product managers, to deliver high-quality software solutions within project timelines.
+               Conduct code reviews and provide constructive feedback to team members, promoting code quality and adherence to best practices."/>
 
-                <Details position=" Jr. Developer" company="Barnes & Co." companyLink=""
+                <Details position="Web Developer" company="Barnes & Co." companyLink=""
                time="2018" address="Pensacola , FL"
-               work="Collaborated with senior developers to develop and maintain company websites,
-               Assisted with troubleshooting and debugging issues as they arose,
-               Worked on various projects using React and Angular frameworks,
-               Participated in code reviews and contributed to the development of coding standards."/>
+               work="Assisted in developing and maintaining web applications using React and Next.js, contributing to the company's product portfolio.
+               Worked closely with senior developers to implement responsive UI designs using Tailwind CSS, enhancing the user experience.
+               Supported API development efforts by creating and consuming API endpoints, facilitating data exchange between front-end and back-end systems.
+               Gained practical experience in working with SQL databases, writing SQL queries, and performing basic database administration tasks."/>
 
-                <Details position="Solutions Consultant" company="Verizon" companyLink="https://www.verizon.com"
-               time="2014-2018" address="Pensacola , FL"
-               work="Build and maintain strong relationships with customers, earning their trust and loyalty
-               Meet and exceed sales targets and performance metrics
-               Continuously develop and enhance technical and sales skills through training and self-study
-               Contribute to the development of sales strategies and tactics that drive revenue growth and customer satisfaction"/>     
+                 
             </ul>
         </div>
     </div>
