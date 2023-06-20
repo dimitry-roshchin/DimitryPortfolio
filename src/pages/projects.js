@@ -127,7 +127,7 @@ const projects = () => {
       img={iphone}
       summary="Landing page using React JS (CRA), GSAP for scolling animations, styled-components for styling and Three.JS for 
       rendering the 3D model."
-      link="https://github.com/dimitry-roshchin/landing-iphone"
+      link="https://landing-iphone.vercel.app/"
       github="https://github.com/dimitry-roshchin/landing-iphone"
       type="Vercel Hosting"      
       
