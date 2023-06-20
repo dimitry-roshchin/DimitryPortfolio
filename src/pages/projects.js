@@ -127,9 +127,9 @@ const projects = () => {
       img={iphone}
       summary="Landing page using React JS (CRA), GSAP for scolling animations, styled-components for styling and Three.JS for 
       rendering the 3D model."
-      link="https://iphonelandingpage.netlify.app/"
+      link="https://github.com/dimitry-roshchin/landing-iphone"
       github="https://github.com/dimitry-roshchin/landing-iphone"
-      type="Netlify Hosting"      
+      type="Vercel Hosting"      
       
       />
       
