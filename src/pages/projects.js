@@ -46,9 +46,16 @@
 //        <p className='my-2 font-medium text-dark dark:text-light sm:text-sm'>{summary}</p>
 //        <div className='mt-2 flex items-center'>
 
+<<<<<<< HEAD
 //        <Link href={link} target='_blank' className='ml-4 rounded-lg bg-light text-dark border-2 border-solid border-[#ff4d70] hover:bg-[#ff4d70] hover:text-light
 //         dark:hover:bg-[#ff4d70] dark:hover:text-dark p-2 px-6 text-lg font-semibold
 //         dark:bg-dark dark:text-light sm:px-4 sm:text-base'>Visit Project</Link>
+=======
+       <Link href={github} target='_blank' className='w-10'><GithubIcon/></Link>
+       <Link href={link} target='_blank' className='ml-4 rounded-lg bg-light text-dark border-2 border-solid border-[#ff4d70] hover:bg-[#ff4d70] hover:text-light
+        dark:hover:bg-[#ff4d70] dark:hover:text-dark p-2 px-6 text-lg font-semibold
+        dark:bg-dark dark:text-light sm:px-4 sm:text-base'>Visit Project</Link>
+>>>>>>> parent of 4c4b2e4 (change projects)
 
 //        </div>
         
@@ -88,7 +95,12 @@
 //        </Link>
 //        <div className='w-full mt-2 flex items-center justify-between'>
 
+<<<<<<< HEAD
 //        <Link href={link} target='_blank' className='underline text-lg font-semibold text-[#ff4d70] md:text-base'>Visit</Link>
+=======
+       <Link href={link} target='_blank' className='underline text-lg font-semibold text-[#ff4d70] md:text-base'>Visit</Link>
+       <Link href={github} target='_blank' className='w-8 md:w-6'><GithubIcon/>{""}</Link>
+>>>>>>> parent of 4c4b2e4 (change projects)
 
 //        </div>
         
@@ -119,6 +131,7 @@
 
 //     <div className='col-span-12'>
 
+<<<<<<< HEAD
 //       <FeaturedProject 
 //       title="Product Landing Page"
 //       img={iphone}
@@ -126,11 +139,22 @@
 //       rendering the 3D model."
 //       link="https://landing-iphone.vercel.app/"
 //       type="Vercel Hosting"      
+=======
+      <FeaturedProject 
+      title="Product Landing Page"
+      img={iphone}
+      summary="Landing page using React JS (CRA), GSAP for scolling animations, styled-components for styling and Three.JS for 
+      rendering the 3D model."
+      link="https://landing-iphone.vercel.app/"
+      github="https://github.com/dimitry-roshchin/landing-iphone"
+      type="Vercel Hosting"      
+>>>>>>> parent of 4c4b2e4 (change projects)
       
 //       />
       
 //     </div>
 
+<<<<<<< HEAD
 //     <div className='col-span-6 sm:col-span-12 md:col-span-12'>
 //       <Project 
 //       title="Covered"
@@ -144,10 +168,29 @@
 //       img={project6}
 //       link="/"
 //       type="Vercel Hosting"      
+=======
+    <div className='col-span-6 sm:col-span-12 md:col-span-12'>
+      <Project 
+      title="Weather App"
+      img={weather12}
+      link="https://dimweather.netlify.app/"
+      github="https://github.com/dimitry-roshchin/weather"
+      type="Vanilla JS API Example"      
+      
+      /></div>
+    <div className='col-span-6 sm:col-span-12 md:col-span-12'>
+    <Project 
+      title=" Next.Js Portfolio"
+      img={project6}
+      link="/"
+      github="https://github.com/dimitry-roshchin/DimitryPortfolio"
+      type="Vercel Hosting"      
+>>>>>>> parent of 4c4b2e4 (change projects)
       
 //       />
 //     </div>
 
+<<<<<<< HEAD
 //     <div className='col-span-12'>
 //     <FeaturedProject 
 //       title="MyLibrary"
@@ -155,6 +198,17 @@
 //       summary="Library web app that allows users to display physical and digital libraries.
 //        Technologies being used are Next.js, Tailwind-CSS, SQL, Firebase."
 //       type="Under Construction"      
+=======
+    <div className='col-span-12'>
+    <FeaturedProject 
+      title="MyLibrary"
+      img={project4}
+      summary="Library web app that allows users to display physical and digital libraries.
+       Technologies being used are Next.js, Tailwind-CSS, SQL, Firebase."
+      link="/"
+      github=""
+      type="Under Construction"      
+>>>>>>> parent of 4c4b2e4 (change projects)
       
 //       />
 
