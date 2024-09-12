@@ -133,10 +133,10 @@ const projects = () => {
 
     <div className='col-span-6 sm:col-span-12 md:col-span-12'>
       <Project 
-      title="Weather App"
-      img={weather12}
-      link="https://dimweather.netlify.app/"
-      type="Vanilla JS API Example"      
+      title="AI Notifications App"
+      img={project4}
+      link="/Projects"
+      type="Under Construction"      
       
       /></div>
     <div className='col-span-6 sm:col-span-12 md:col-span-12'>
@@ -155,7 +155,7 @@ const projects = () => {
       img={project4}
       summary="Library web app that allows users to display physical and digital libraries.
        Technologies being used are Next.js, Tailwind-CSS, SQL, Firebase."
-      link="/"
+      link="/Projects"
       type="Under Construction"      
       
       />
