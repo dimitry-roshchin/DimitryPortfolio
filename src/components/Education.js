@@ -18,7 +18,7 @@ const Details = ({type, time, place, info}) => {
                 {type}
             </h3>
             <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
-                {time} | {place}
+                {time}  {place}
             </span>
             <p className='font-medium w-full md:text-sm'>
                 {info}
@@ -50,7 +50,7 @@ const Education = () => {
 
              <Details
              type="B.Sc in Computer Science"
-             place="Pensacola Christian College"
+             place="University of West Florida"
              info="Relevant coursework included Data Structures and Algorithms, Computer Systems Engineering, Networking and
              Computer Architecture"
              /> 
@@ -58,8 +58,7 @@ const Education = () => {
             <Details
              type="Continued Learning"
              time="Ongoing"
-             place="Certifications"
-             info="Boomi Professional Developer Certification, Kubernetes Developer Certification.
+             info="Boomi Professional Developer Certification, Kubernetes Developer Certification./n
              Ongoing: AWS Cloud Practitioner Certification."
              /> 
 
