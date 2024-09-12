@@ -46,6 +46,7 @@ const FeaturedProject= ({type, title, summary, img, link}) =>{
        <p className='my-2 font-medium text-dark dark:text-light sm:text-sm'>{summary}</p>
        <div className='mt-2 flex items-center'>
 
+       <Link href={github} target='_blank' className='w-10'><GithubIcon/></Link>
        <Link href={link} target='_blank' className='ml-4 rounded-lg bg-light text-dark border-2 border-solid border-[#ff4d70] hover:bg-[#ff4d70] hover:text-light
         dark:hover:bg-[#ff4d70] dark:hover:text-dark p-2 px-6 text-lg font-semibold
         dark:bg-dark dark:text-light sm:px-4 sm:text-base'>Visit Project</Link>
@@ -89,6 +90,7 @@ const Project= ({title, type, img, link}) =>{
        <div className='w-full mt-2 flex items-center justify-between'>
 
        <Link href={link} target='_blank' className='underline text-lg font-semibold text-[#ff4d70] md:text-base'>Visit</Link>
+       <Link href={github} target='_blank' className='w-8 md:w-6'><GithubIcon/>{""}</Link>
 
        </div>
         
@@ -125,6 +127,7 @@ const projects = () => {
       summary="Landing page using React JS (CRA), GSAP for scolling animations, styled-components for styling and Three.JS for 
       rendering the 3D model."
       link="https://landing-iphone.vercel.app/"
+      github="https://github.com/dimitry-roshchin/landing-iphone"
       type="Vercel Hosting"      
       
       />
@@ -133,9 +136,11 @@ const projects = () => {
 
     <div className='col-span-6 sm:col-span-12 md:col-span-12'>
       <Project 
-      title="Covered"
+      title="Weather App"
       img={weather12}
-      type="Under Construction"      
+      link="https://dimweather.netlify.app/"
+      github="https://github.com/dimitry-roshchin/weather"
+      type="Vanilla JS API Example"      
       
       /></div>
     <div className='col-span-6 sm:col-span-12 md:col-span-12'>
@@ -143,6 +148,7 @@ const projects = () => {
       title=" Next.Js Portfolio"
       img={project6}
       link="/"
+      github="https://github.com/dimitry-roshchin/DimitryPortfolio"
       type="Vercel Hosting"      
       
       />
@@ -154,6 +160,8 @@ const projects = () => {
       img={project4}
       summary="Library web app that allows users to display physical and digital libraries.
        Technologies being used are Next.js, Tailwind-CSS, SQL, Firebase."
+      link="/"
+      github=""
       type="Under Construction"      
       
       />
