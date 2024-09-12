@@ -64,7 +64,7 @@ const about = () => {
                         </p>
 
                         <p className='font-medium'>
-                        If you have any questions about my experience, feel free to reach out to me through <a href='https://wwww.linkedin.com/in/dimitry-roshchin'>LinkedIn</a> or <a href="mailto:dimi.roshchin@gmail.com?subject=Hey There Dimitry!">E-mail.</a>
+                        If you have any questions about my experience, feel free to reach out to me through <a href='https://www.linkedin.com/in/dimitry-roshchin-0340241b6'>LinkedIn</a> or <a href="mailto:dimi.roshchin@gmail.com?subject=Hey There Dimitry!">E-mail.</a>
                         </p>
                 </div>
 
