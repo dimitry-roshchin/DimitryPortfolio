@@ -50,7 +50,6 @@ const Education = () => {
 
              <Details
              type="B.Sc in Computer Science"
-             time="Ongoing"
              place="Pensacola Christian College"
              info="Relevant coursework included Data Structures and Algorithms, Computer Systems Engineering, Networking and
              Computer Architecture"
@@ -60,8 +59,8 @@ const Education = () => {
              type="Continued Learning"
              time="Ongoing"
              place="Certifications"
-             info="Boomi Professional Developer Certification, Salesforce Administrator Certification.
-             Ongoing: AWS Cloud Practitioner Certification, Azure Developer Certification. "
+             info="Boomi Professional Developer Certification, Kubernetes Developer Certification.
+             Ongoing: AWS Cloud Practitioner Certification."
              /> 
 
 
