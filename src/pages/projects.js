@@ -9,13 +9,14 @@ import project4 from "../../public/images/projects/construct4.png"
 import project6 from "../../public/images/projects/portfolio1.png"
 import Image from 'next/image'
 import {motion} from 'framer-motion'
+import { GithubIcon } from '@/components/icons'
 import TransitionEffect from '@/components/TransitionEffect'
 
 const FramerImage = motion(Image);
 
 
 
-const FeaturedProject= ({type, title, summary, img, link}) =>{
+const FeaturedProject= ({type, title, summary, img, link, github}) =>{
 
   return(
     
