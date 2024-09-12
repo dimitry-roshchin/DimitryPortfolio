@@ -54,18 +54,17 @@ const about = () => {
                 <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 md:mb-12 '>
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                     
-                        <p className='font-medium '>Hello, my name is Dimitry and I am a software developer. I am passionate about creating beautiful, intuitive, 
-                        and functional applications that provide a seamless user experience.</p>
+                        <p className='font-medium '>I'm a software engineer with five years of experience working with Vue, TypeScript, and .NET. 
+                            Over the years, I've built and maintained scalable applications, gaining hands-on experience with containerization tools like Docker and Kubernetes. 
+                            My focus has always been on writing clean, efficient code and delivering solutions that meet both user and business needs.</p>
 
                         <p className='my-4 font-medium'>
-                        I am a team player who enjoys collaborating with others to achieve common goals. I am also a problem solver who 
-                        is not afraid to tackle complex challenges and find creative solutions to overcome them. 
+                        In addition to my technical skills, I’ve worked in Scrum and Agile environments, which has helped me collaborate effectively with cross-functional teams. 
+                        I’m a strong team player who believes in open communication and working together to solve problems and deliver great results.
                         </p>
 
                         <p className='font-medium'>
-                        I have a solid foundation in JavaScript, as well as experience 
-                        with various web development frameworks such as React and Next. I am constantly learning 
-                        and staying up-to-date with the latest web development trends and technologies
+                        If you have any questions about my experience, feel free to reach out to me through <a href='https://wwww.linkedin.com/in/dimitry-roshchin'>LinkedIn</a> or <a href="mailto:dimi.roshchin@gmail.com?subject=Hey There Dimitry!">E-mail.</a>
                         </p>
                 </div>
 

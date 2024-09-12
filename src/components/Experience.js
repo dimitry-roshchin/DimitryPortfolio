@@ -47,22 +47,21 @@ const Experience = () => {
             style={{scaleY: scrollYProgress}}
             className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-[#b7b7b7] md:w-[2px] md:left-[30px] xs:left-[20px]'/>
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
-               <Details position="Software Developer" company="Volk Digital" companyLink="https://www.volkwebdev.com/"
-               time="2018-Present" address="Pensacola , FL"
-               work="Develop and maintain multiple web applications using React, Next.js, and Tailwind CSS, resulting in improved user experience and increased customer satisfaction.
-               Design and implement RESTful APIs, enabling seamless integration between the front-end and back-end systems.
-               Utilize SQL databases to manage and store application data, ensuring data integrity and efficient retrieval.
-               Collaborate with cross-functional teams, including designers and product managers, to deliver high-quality software solutions within project timelines.
-               Conduct code reviews and provide constructive feedback to team members, promoting code quality and adherence to best practices."/>
 
-                <Details position="Web Developer" company="Barnes & Co." companyLink=""
-               time="2018" address="Pensacola , FL"
+              <Details position="Software Engineer" company="Beast Code" companyLink=""
+               time="2023-Current" address="Remote"
                work="Assisted in developing and maintaining web applications using React and Next.js, contributing to the company's product portfolio.
                Worked closely with senior developers to implement responsive UI designs using Tailwind CSS, enhancing the user experience.
                Supported API development efforts by creating and consuming API endpoints, facilitating data exchange between front-end and back-end systems.
                Gained practical experience in working with SQL databases, writing SQL queries, and performing basic database administration tasks."/>
 
-                 
+               <Details position="Software Developer" company="Volk Digital" companyLink="https://www.volkwebdev.com/"
+               time="2018-2023" address="Hybrid"
+               work="Develop and maintain multiple web applications using React, Next.js, and Tailwind CSS, resulting in improved user experience and increased customer satisfaction.
+               Design and implement RESTful APIs, enabling seamless integration between the front-end and back-end systems.
+               Utilize SQL databases to manage and store application data, ensuring data integrity and efficient retrieval.
+               Collaborate with cross-functional teams, including designers and product managers, to deliver high-quality software solutions within project timelines.
+               Conduct code reviews and provide constructive feedback to team members, promoting code quality and adherence to best practices."/>
             </ul>
         </div>
     </div>
