@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Layout from '@/components/Layout'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
-import { GithubIcon } from '@/components/icons'
 import weather12 from "../../public/images/projects/weather12.png"
 import iphone from "../../public/images/projects/pricing.png"
 import project4 from "../../public/images/projects/construct4.png"
@@ -16,7 +15,7 @@ const FramerImage = motion(Image);
 
 
 
-const FeaturedProject= ({type, title, summary, img, link, github}) =>{
+const FeaturedProject= ({type, title, summary, img, link}) =>{
 
   return(
     
@@ -61,7 +60,7 @@ const FeaturedProject= ({type, title, summary, img, link, github}) =>{
 
 }
 
-const Project= ({title, type, img, link, github}) =>{
+const Project= ({title, type, img, link}) =>{
 
   return(
 
