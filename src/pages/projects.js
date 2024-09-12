@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Layout from '@/components/Layout'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
-import weather12 from "../../public/images/projects/weather12.png"
 import iphone from "../../public/images/projects/pricing.png"
 import project4 from "../../public/images/projects/construct4.png"
 import project6 from "../../public/images/projects/portfolio1.png"
@@ -135,7 +134,7 @@ const projects = () => {
       <Project 
       title="AI Notifications App"
       img={project4}
-      link="/Projects"
+      link=""
       type="Under Construction"      
       
       /></div>
@@ -143,7 +142,7 @@ const projects = () => {
     <Project 
       title=" Next.Js Portfolio"
       img={project6}
-      link="/"
+      link=""
       type="Vercel Hosting"      
       
       />
@@ -155,7 +154,7 @@ const projects = () => {
       img={project4}
       summary="Library web app that allows users to display physical and digital libraries.
        Technologies being used are Next.js, Tailwind-CSS, SQL, Firebase."
-      link="/Projects"
+      link=""
       type="Under Construction"      
       
       />
