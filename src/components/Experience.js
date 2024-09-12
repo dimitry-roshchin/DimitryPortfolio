@@ -56,7 +56,7 @@ const Experience = () => {
                 system while ensuring high performance and scalability. Working in an Agile Scrum environment, our team is on track to deliver the product on time, 
                 achieving key project milestones and setting the stage for future cloud-based initiatives."/>
 
-               <Details position="Software Developer" company="Volk Digital" companyLink="https://www.volkwebdev.com/"
+               <Details position="Jr. Software Engineer" company="Volk Digital" companyLink="https://www.volkwebdev.com/"
                time="2018-2023" address="Hybrid"
                work="Develop and maintain multiple web applications using React, Next.js, and Tailwind CSS, resulting in improved user experience and increased customer satisfaction.
                Design and implement RESTful APIs, enabling seamless integration between the front-end and back-end systems.
