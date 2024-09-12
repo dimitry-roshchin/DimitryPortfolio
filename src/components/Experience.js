@@ -50,11 +50,10 @@ const Experience = () => {
 
               <Details position="Software Engineer" company="Beast Code" companyLink=""
                time="2023-Current" address="Remote"
-               work="In my current role, I help lead the development of a key plugin that enhances the functionality of our company’s core platform. 
-               As part of the first team assigned to this project, we are building the company’s first SaaS product. Leveraging technologies like Vue, 
-               TypeScript, .NET, Docker, Kubernetes, and ChartMuseum, we are designing and implementing a solution that integrates seamlessly into the
-                system while ensuring high performance and scalability. Working in an Agile Scrum environment, our team is on track to deliver the product on time, 
-                achieving key project milestones and setting the stage for future cloud-based initiatives."/>
+               work="Assisted in developing and maintaining web applications using React and Next.js, contributing to the company's product portfolio.
+               Worked closely with senior developers to implement responsive UI designs using Tailwind CSS, enhancing the user experience.
+               Supported API development efforts by creating and consuming API endpoints, facilitating data exchange between front-end and back-end systems.
+               Gained practical experience in working with SQL databases, writing SQL queries, and performing basic database administration tasks."/>
 
                <Details position="Jr. Software Engineer" company="Volk Digital" companyLink="https://www.volkwebdev.com/"
                time="2018-2023" address="Hybrid"

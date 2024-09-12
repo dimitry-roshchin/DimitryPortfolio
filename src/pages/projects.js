@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from 'react'
 // import Head from 'next/head'
 // import Layout from '@/components/Layout'
@@ -10,12 +11,31 @@
 // import Image from 'next/image'
 // import {motion} from 'framer-motion'
 // import TransitionEffect from '@/components/TransitionEffect'
+=======
+import React from 'react'
+import Head from 'next/head'
+import Layout from '@/components/Layout'
+import AnimatedText from '@/components/AnimatedText'
+import Link from 'next/link'
+import { GithubIcon } from '@/components/icons'
+import weather12 from "../../public/images/projects/weather12.png"
+import iphone from "../../public/images/projects/pricing.png"
+import project4 from "../../public/images/projects/construct4.png"
+import project6 from "../../public/images/projects/portfolio1.png"
+import Image from 'next/image'
+import {motion} from 'framer-motion'
+import TransitionEffect from '@/components/TransitionEffect'
+>>>>>>> parent of 6c0cdc9 (update experience and projects)
 
 // const FramerImage = motion(Image);
 
 
 
+<<<<<<< HEAD
 // const FeaturedProject= ({type, title, summary, img, link}) =>{
+=======
+const FeaturedProject= ({type, title, summary, img, link, github}) =>{
+>>>>>>> parent of 6c0cdc9 (update experience and projects)
 
 //   return(
     
@@ -67,7 +87,11 @@
 
 // }
 
+<<<<<<< HEAD
 // const Project= ({title, type, img, link}) =>{
+=======
+const Project= ({title, type, img, link, github}) =>{
+>>>>>>> parent of 6c0cdc9 (update experience and projects)
 
 //   return(
 
