@@ -16,7 +16,7 @@ const FramerImage = motion(Image);
 
 
 
-const FeaturedProject= ({type, title, summary, img, link, github}) =>{
+const FeaturedProject= ({type, title, summary, img, link}) =>{
 
   return(
     
