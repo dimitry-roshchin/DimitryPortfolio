@@ -73,15 +73,10 @@ const handleClick = () => {
         </nav>
        
         <nav className='flex items-center justify-center flex-wrap'>
-            <motion.a href="https://twitter.com/DimDevelops" target={"_blank"}
+            <motion.a href="https://wwww.linkedin.com/in/dimitry-roshchin" target={"_blank"}
               whileHover={{y: -2}}
               whileTap={{scale:0.9}}
               className='w-6 mx-3'><LinkedInIcon/></motion.a>
-
-            <motion.a href="https://github.com/dimitry-roshchin" target={"_blank"}
-            whileHover={{y: -2}}
-            whileTap={{scale:0.9}}
-            className='w-6 mx-3'><GithubIcon/></motion.a>
 
             <motion.a target={"_blank"} href="mailto:dimi.roshchin@gmail.com?subject=Let's Chat!"
             whileHover={{y: -2}}
