@@ -58,7 +58,7 @@ const Education = () => {
             <Details
              type="Continued Learning"
              time="Ongoing"
-             info="Boomi Professional Developer Certification, Kubernetes Developer Certification./n
+             info="Boomi Professional Developer Certification, Kubernetes Developer Certification, Scrum Certification.
              Ongoing: AWS Cloud Practitioner Certification."
              /> 
 
