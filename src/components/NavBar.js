@@ -76,7 +76,7 @@ const handleClick = () => {
             <motion.a href="https://twitter.com/DimDevelops" target={"_blank"}
               whileHover={{y: -2}}
               whileTap={{scale:0.9}}
-              className='w-6 mx-3'><TwitterIcon/></motion.a>
+              className='w-6 mx-3'><LinkedInIcon/></motion.a>
 
             <motion.a href="https://github.com/dimitry-roshchin" target={"_blank"}
             whileHover={{y: -2}}
